@@ -5,10 +5,11 @@
     display: flex;
     align-items: center;
 
+    
 
     // можно забрать у таск.ксс
     .change_button{
-        margin-right: 4px;
+        margin-left: 0;
 
         font-size: 20px;
         border: none;
@@ -21,9 +22,9 @@
 
     .input_add{
         height: 29px;
-        margin-right: 4px;
-        width: 100%;
+        margin: 0 4px 0 4px;
         border: none;
+        width: 80%;
         border-bottom: solid blue 1px;
     }
 
