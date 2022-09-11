@@ -22,7 +22,7 @@ function Task(props){
         axios.put(props.url + '/' + props.id, {check: event.target.checked});
         setChange(!change);
     }
-
+ 
     let trueStyle = {textDecoration: "none"};
     let falseStyle = {textDecoration: "line-through"};
 
