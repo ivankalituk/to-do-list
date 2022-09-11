@@ -1,0 +1,52 @@
+.AddTask{
+
+    margin-top: 10px;
+
+    display: flex;
+    align-items: center;
+
+
+    // можно забрать у таск.ксс
+    .change_button{
+        margin-right: 4px;
+
+        font-size: 20px;
+        border: none;
+        border-radius: 15px;
+        height: 30px;
+        width: 30px;
+        color: white;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 2px 0px;
+    }
+
+    .input_add{
+        height: 29px;
+        margin-right: 4px;
+        width: 100%;
+        border: none;
+        border-bottom: solid blue 1px;
+    }
+
+
+    .blue_btn{
+        background-color:blue;
+        transition: 0.7s;
+    }
+
+    .blue_btn:hover{
+        background-color: rgb(0, 0, 233);
+        transition: 0.7s;
+    }
+
+    .red_btn{
+        font-size: 14px;
+
+        background-color: red;
+        transition: 0.7s;
+    }
+
+    .red_btn:hover{
+        background-color: rgb(233, 0, 0);
+        transition: 0.7s;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.App{
+    font-family: 'Inter', sans-serif;
+
+    header{
+        background-color: #1047AA;
+        padding: 0 20px;
+
+
+        .header_text{
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 10px 0;
+
+
+            color: white;
+            text-transform: uppercase;
+        }
+    }
+
+    .Content{
+        max-width: 1440px;
+        padding: 0 10px;
+        margin: auto;
+
+        
+    }
+
+}
+
